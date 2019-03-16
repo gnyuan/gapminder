@@ -100,6 +100,7 @@ def update_figure(selected_tdate_index, selected_sector):
     }
     return figure
 
+server = app.server # For Heroku Deployment
 
 if __name__ == '__main__':
     app.run_server(debug=True, host='0.0.0.0')
