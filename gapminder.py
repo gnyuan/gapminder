@@ -25,6 +25,7 @@ app.title = "Morgan's Weeken Project"
 
 app.layout = html.Div([
     html.H2(children='Gapminder. X:Volume. Y:Rate of Return. Bubble:Market Value'),
+    html.H4(children='欢迎和我探讨更多可视化的创意 961316387ATqq.com'),
     dcc.Dropdown(
         id="sector-dropdown",
         options=[
@@ -92,7 +93,7 @@ def update_figure(selected_tdate_index, selected_sector):
     figure = {
         'data': traces,
         'layout': go.Layout(
-            xaxis={'type': 'log', 'title': 'Volumne', 'range':[4, 5.7]},
+            xaxis={'type': 'log', 'title': 'Volume', 'range':[4, 5.7]},
             yaxis={'title': 'Rate of Return', 'range': [-10, 10]},
             margin={'l': 40, 'b': 40, 't': 10, 'r': 10},
             legend={'x': 0, 'y': 1},
