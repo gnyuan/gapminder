@@ -10,6 +10,7 @@ dash = "*"
 dash-html-components = "*"
 dash-core-components = "*"
 pandas = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.6"
