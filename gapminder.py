@@ -24,7 +24,7 @@ app = dash.Dash()
 app.title = "Morgan's Weeken Project"
 
 app.layout = html.Div([
-    html.H2(children='Gapminder. X:Volume. Y:Rate of Return. Bubble:Market Value'),
+    html.H2(children='Gapminder五维. X轴:成交量 Y轴:日收益 泡大小:市值 颜色:行业 动轴:日期'),
     html.H4(children='欢迎和我探讨更多可视化的创意 961316387ATqq.com'),
     dcc.Dropdown(
         id="sector-dropdown",
