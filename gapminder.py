@@ -21,6 +21,7 @@ unique_sectors = list(df["sector"].unique())
 unique_tdates = list(df['tdate'].unique())
 
 app = dash.Dash()
+app.title = "Morgan's Weeken Project"
 
 app.layout = html.Div([
     html.H2(children='Gapminder. X:Volume. Y:Rate of Return. Bubble:Market Value'),
