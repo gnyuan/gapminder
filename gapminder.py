@@ -21,7 +21,7 @@ unique_sectors = list(df["sector"].unique())
 unique_tdates = list(df['tdate'].unique())
 
 app = dash.Dash()
-app.title = "Morgan's Weeken Project"
+app.title = "Gapminder for Stock"
 
 app.layout = html.Div([
     html.H2(children='Gapminder五维. X轴:成交量 Y轴:日收益 泡大小:市值 颜色:行业 动轴:日期'),
